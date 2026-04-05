@@ -62,9 +62,8 @@ export function HeroSection() {
         aria-hidden
       >
         <Image
-          src="
-          https://images.unsplash.com/photo-1581591524425-c7e0978865fc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Editorial style woman dramatic pose"
+          src="/hero-image.jpg"
+          alt="Hero background photoshoot berlin vector studio"
           fill
           priority
           className="object-cover object-center"
