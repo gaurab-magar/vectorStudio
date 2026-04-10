@@ -20,6 +20,10 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Allow cross-origin requests from local network during development
+  ...(process.env.NODE_ENV === "development" && {
+    allowedDevOrigins: ["http://localhost:3000", "http://192.168.2.121:3000"],
+  }),
 };
 
 export default nextConfig;
