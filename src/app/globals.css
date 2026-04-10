@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
+/* CRM Dashboard Theme Variables */
 :root {
-  --background: #fafafa;
+  --background: oklch(0.985 0.002 247); /* light cool gray */
   --foreground: #18181b;
-  --accent-gold: #c9a96e;
+  --accent: oklch(0.55 0.15 175); /* teal/cyan */
+  --sidebar-bg: oklch(0.13 0.015 265); /* dark navy */
+  --card-bg: #fff;
+  --border-radius: 0.625rem;
   --glass-bg: rgba(255, 255, 255, 0.72);
   --glass-border: rgba(24, 24, 27, 0.12);
   --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
@@ -13,6 +17,10 @@
 .dark {
   --background: #0a0a0a;
   --foreground: #f4f4f5;
+  --accent: oklch(0.55 0.15 175);
+  --sidebar-bg: oklch(0.13 0.015 265);
+  --card-bg: #18181b;
+  --border-radius: 0.625rem;
   --glass-bg: rgba(255, 255, 255, 0.08);
   --glass-border: rgba(255, 255, 255, 0.12);
   --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
@@ -22,6 +30,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+/* Card utility for CRM dashboard */
+.crm-card {
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 1px 2px 0 rgb(16 24 40 / 5%);
 }
 
 /* Glassmorphism — blur/backdrop values Tailwind cannot fully express */

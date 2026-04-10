@@ -11,14 +11,14 @@ const TESTIMONIALS = [
     name: "Mira Köhler",
     shoot: "Editorial portrait",
     quote:
-      "Vector brought a calm presence and an eye for light that made the whole campaign feel effortless.",
+"Vector brought a calm presence and an eye for light that made the whole campaign feel effortless."
   },
   {
     id: "t2",
     name: "Jonas & Felix",
     shoot: "Wedding",
     quote:
-      "Our gallery felt cinematic yet honest — every frame looked considered without feeling staged.",
+"Our gallery felt cinematic yet honest — every frame looked considered without feeling staged."
   },
   {
     id: "t3",
@@ -32,7 +32,7 @@ const TESTIMONIALS = [
     name: "Elena Rossi",
     shoot: "Event coverage",
     quote:
-      "He disappeared into the crowd and still delivered hero shots we used across every channel.",
+"He disappeared into the crowd and still delivered hero shots we used across every channel."
   },
 ] as const;
 
